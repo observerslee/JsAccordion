@@ -1,0 +1,14 @@
+body{
+	background-color:#eee;
+	color:#585858;
+}
+
+.centerWrap{
+	width:500px;
+	margin:0 auto;
+}
+
+h1{
+	font-family: Century Gothic, sans-serif;
+	font-weight: 100;
+}
