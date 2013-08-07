@@ -4,10 +4,27 @@ body{
 }
 /*Application Style*/
 
+.jsAccordion{
+
+}
+
+.firstLv{
+	list-style: none;
+	display:none;
+}
+
+.secondLv{
+	list-style: none;
+	display: none;
+}
+.jsAccorShow{
+	display: block;
+}
+
 /*myStyle*/
 
 .centerWrap{
-	width:500px;
+	width:300px;
 	margin:0 auto;
 }
 
@@ -16,25 +33,42 @@ h1{
 	font-weight: 100;
 	text-align: center;
 }
+#myAccordion{
+	border-radius: 10px;
+	padding:10px 0;
+	border:1px solid #ccc;
+	background-color: #2185C5;
+	box-shadow: 2px 2px 22px 2px #ccc;
+}
 .menuName{
 	padding:0;
 	margin:0;
 	text-align: center;
+	color:#fff;
+	padding:10px 0;
+	font-size: 18px;
+	font-weight: 100;
 }
-#jsAccordion{
-	padding:10px;
-	border:1px solid #595959;
-}
-
-.firstLv, .secondLv{
+.myFirstLv, .mySecondLv{
 	padding:0;
 	margin:0;
+	text-align: center;
+	color:#fff;
+}
+.myFirstLv>li{
+}
+.myFirstLv>li>p{
+	padding:10px 0;
+	margin:0;
+	background-color:#2795d5;
+	border-bottom:1px solid #2185C5;
+	box-shadow: inset 0px 20px 20px -20px #2185C5;
+}
+.mySecondLv>li{
+	padding:10px 0;
+	background-color: #7ECEFD;
+	color:#3E454C;
+	border-bottom:1px solid #2185C5;
+	box-shadow: inset 0px 2px 2px -2px #2795d5;
 }
 
-.firstLv>li{
-	list-style: none;
-}
-
-.secondLv>li{
-	list-style: none;
-}
