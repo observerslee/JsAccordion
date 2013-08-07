@@ -25,4 +25,18 @@ var EventHandler = {
         e.cancelBubble = true;
         if (e.stopPropagation) e.stopPropagation();
     }
+};
+//get child node plugin
+
+function getChilds(parent, tagName) {
+    var childs = parent.childNodes,
+    arr = [],
+    currChild;
+    for (var i = 0, len = childs.length; i < len; i++) {
+        currChild = childs[i];
+        if (currChild.nodeType == 1 && currChild.tagName.toLowerCase()== tagName) {
+            arr.push(currChild);
+        }
+    }
+    return arr;
 }
