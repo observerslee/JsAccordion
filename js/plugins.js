@@ -34,9 +34,14 @@ function getChilds(parent, tagName) {
     currChild;
     for (var i = 0, len = childs.length; i < len; i++) {
         currChild = childs[i];
+        console.log(currChild.nodeType + ' ' + currChild);
         if (currChild.nodeType == 1 && currChild.tagName.toLowerCase()== tagName) {
-            arr.push(currChild);
+            // arr.push(currChild);
+            arr.push(childs[i]);
         }
     }
+
+    console.log(arr);
+
     return arr;
 }
