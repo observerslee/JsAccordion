@@ -11,12 +11,32 @@ jsAccorFirstLv.className = jsAccorFirstLv.className + ' firstLv'; //add menuName
 
 var jsAccorFirstLvBtn = getChilds(jsAccorFirstLv,'li');//use getChilds plugin to get first level li only
 
+console.log(jsAccorFirstLvBtn);
+
 //add menuTitle class to all firstLv title
 
-for(i=0;i<jsAccorFirstLvBtn.length;i++){
-	var firstLvBtntitle = jsAccorFirstLvBtn[i].getElementsByTagName('p');
-	console.log(firstLvBtntitle);
+
+
+
+for(i=0;i < jsAccorFirstLvBtn.length;i++){
+	
+
+    // console.log(jsAccorFirstLvBtn[i].);
+
+    var firstLvBtntitle = jsAccorFirstLvBtn[i].getElementsByTagName('p');
+
+    console.log(firstLvBtntitle);
+
+    // //  Node type 不對
+    // firstLvBtntitle.setAttribute('class', 'Hello');
+    // console.log(firstLvBtntitle);
+    // return false;
+    // break;
+    
 }
+
+
+
 	
 
 // var jsAccorSecondLv = jsAccorFirstLv.getElementsByTagName('ul');
