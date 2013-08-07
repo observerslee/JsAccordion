@@ -19,3 +19,6 @@
 
 ###001-05082013
 html,css and javascript framework setup
+
+###001-07082013
+html,css ready for interaction
